@@ -22,7 +22,6 @@ class ReduceButGrow : CodeWarsProblem<IntArray, Int> {
     override fun solve(input: IntArray): Int =
         grow(input)
 
-
     // region Solution
 
     private fun grow(arr: IntArray): Int =
