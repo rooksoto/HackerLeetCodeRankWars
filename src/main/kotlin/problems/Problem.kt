@@ -19,7 +19,12 @@ interface Problem<T, R> {
     fun solve(input: T): R
 
     fun isSolved(): Boolean =
-        solve(testInput) == testSolution
+        solve(testInput).let { result ->
+            when (result) {
+                is IntArray -> result.contentEquals(testSolution as IntArray)
+                else -> result == testSolution
+            }
+        }
 
     fun evaluate(): Unit =
         isSolved().let { solved ->
