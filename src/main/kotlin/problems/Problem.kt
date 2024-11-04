@@ -10,6 +10,12 @@ interface Problem<T, R> {
 
     val testSolution: R
 
+    /**
+     * Provides a solution for a given problem input and returns the result.
+     *
+     * @param input The input parameter for the problem to be solved.
+     * @return The result of solving the problem with the given input.
+     */
     fun solve(input: T): R
 
     fun isSolved(): Boolean =

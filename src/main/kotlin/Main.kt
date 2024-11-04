@@ -1,3 +1,7 @@
 package com.rooksoto.hackerleetcoderankwars
 
-fun main() = println("Hello, HackerLeetCodeRankWars!")
+import com.rooksoto.hackerleetcoderankwars.problems.codewars.ReduceButGrow
+
+fun main() {
+    ReduceButGrow().evaluate()
+}
