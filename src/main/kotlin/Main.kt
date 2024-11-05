@@ -1,5 +1,6 @@
 package com.rooksoto.hackerleetcoderankwars
 
+import com.rooksoto.hackerleetcoderankwars.problems.codewars.ComplementaryDna
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.ConvertAStringToANumber
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.FindTheSmallestIntegerInTheArray
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.InvertValues
@@ -14,4 +15,5 @@ fun main() {
     InvertValues().evaluate()
     ConvertAStringToANumber().evaluate()
     FindTheSmallestIntegerInTheArray().evaluate()
+    ComplementaryDna().evaluate()
 }
