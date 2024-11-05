@@ -34,6 +34,11 @@ class ComplementaryDna : CodeWarsProblem<String, String> {
             'C' to 'G',
             'G' to 'C',
         ).let { complementMap ->
+            // Note: The `get` operation on the map makes the
+            // assumption hat the current item will be in the
+            // map. If we don't have that guarantee (as we do
+            // here) we should supply a default value (for
+            // example, using Map::getOrDefault).
             dna.map(complementMap::get).joinToString("")
         }
 
