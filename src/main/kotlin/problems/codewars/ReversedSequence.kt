@@ -21,7 +21,7 @@ class ReversedSequence : CodeWarsProblem<Int, List<Int>> {
 
     // region Solution
 
-    private fun reverseSeq(n: Int): List<Int> = (n downTo 1).toList()
+    private fun reverseSeq(n: Int): List<Int> = List(n) { n - it }
 
     // endregion
 }
