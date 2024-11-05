@@ -28,6 +28,6 @@ interface Problem<T, R> {
 
     fun evaluate(): Unit =
         isSolved().let { solved ->
-            println("${if (solved) "✅" else "❌"} $problemName has${if (solved) " " else " not "}been solved.")
+            println("${if (solved) "✅" else "❌"} \"$problemName\" has${if (solved) " " else " not "}been solved.")
         }
 }
