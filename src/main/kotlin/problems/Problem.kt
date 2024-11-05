@@ -1,7 +1,6 @@
 package com.rooksoto.hackerleetcoderankwars.problems
 
 interface Problem<T, R> {
-
     val problemName: String
 
     val problemDescription: String
