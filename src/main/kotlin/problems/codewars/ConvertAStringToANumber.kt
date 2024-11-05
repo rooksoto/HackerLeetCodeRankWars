@@ -21,5 +21,9 @@ class ConvertAStringToANumber : CodeWarsProblem<String, Int> {
 
     override fun solve(input: String): Int = stringToNumber(input)
 
+    // region Solution
+
     private fun stringToNumber(str: String): Int = str.toInt()
+
+    // endregion
 }

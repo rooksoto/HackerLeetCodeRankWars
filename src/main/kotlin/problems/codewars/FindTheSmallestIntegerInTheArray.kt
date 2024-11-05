@@ -26,10 +26,14 @@ class FindTheSmallestIntegerInTheArray : CodeWarsProblem<List<Int>, Int> {
 
     override fun solve(input: List<Int>): Int = SmallestIntegerFinder().findSmallestInt(input)
 
+    // region Solution
+
     private class SmallestIntegerFinder {
         fun findSmallestInt(nums: List<Int>): Int = nums.reduce(::minOf)
 
         // Could have done this, but it's no fun.
         // fun findSmallestInt(nums: List<Int>): Int = nums.minOrNull() ?: 0
     }
+
+    // endregion
 }
