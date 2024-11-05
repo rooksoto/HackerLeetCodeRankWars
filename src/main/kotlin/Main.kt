@@ -1,6 +1,7 @@
 package com.rooksoto.hackerleetcoderankwars
 
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.ConvertAStringToANumber
+import com.rooksoto.hackerleetcoderankwars.problems.codewars.FindTheSmallestIntegerInTheArray
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.InvertValues
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.IsHeGonnaSurvive
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.ReduceButGrow
@@ -12,4 +13,5 @@ fun main() {
     IsHeGonnaSurvive().evaluate()
     InvertValues().evaluate()
     ConvertAStringToANumber().evaluate()
+    FindTheSmallestIntegerInTheArray().evaluate()
 }
