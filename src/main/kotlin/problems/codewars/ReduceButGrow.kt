@@ -22,10 +22,7 @@ class ReduceButGrow : CodeWarsProblem<IntArray, Int> {
 
     // region Solution
 
-    private fun grow(arr: IntArray): Int =
-        arr.reduce { acc, i ->
-            acc * i
-        }
+    private fun grow(arr: IntArray): Int = arr.reduce(Int::times)
 
     // endregion
 }
