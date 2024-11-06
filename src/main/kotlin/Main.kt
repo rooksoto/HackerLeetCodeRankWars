@@ -5,6 +5,7 @@ import com.rooksoto.hackerleetcoderankwars.problems.codewars.ConvertAStringToANu
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.FindTheSmallestIntegerInTheArray
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.InvertValues
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.IsHeGonnaSurvive
+import com.rooksoto.hackerleetcoderankwars.problems.codewars.Mumbling
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.ReduceButGrow
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.ReversedSequence
 
@@ -16,4 +17,5 @@ fun main() {
     ConvertAStringToANumber().evaluate()
     FindTheSmallestIntegerInTheArray().evaluate()
     ComplementaryDna().evaluate()
+    Mumbling().evaluate()
 }
