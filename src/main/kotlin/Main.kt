@@ -9,6 +9,7 @@ import com.rooksoto.hackerleetcoderankwars.problems.codewars.Mumbling
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.ReduceButGrow
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.ReversedSequence
 import com.rooksoto.hackerleetcoderankwars.problems.leetcode.CheckIfTheSentenceIsPangram
+import com.rooksoto.hackerleetcoderankwars.problems.leetcode.DeleteCharactersToMakeFancyString
 import com.rooksoto.hackerleetcoderankwars.problems.leetcode.DuplicateZeros
 import com.rooksoto.hackerleetcoderankwars.problems.leetcode.ElementAppearingMoreThan25PercentInSortedArray
 import com.rooksoto.hackerleetcoderankwars.problems.leetcode.MaximumNumberOfWordsYouCanType
@@ -37,5 +38,7 @@ fun main() {
     DuplicateZeros().evaluate()
     ElementAppearingMoreThan25PercentInSortedArray().evaluate()
     MaximumNumberOfWordsYouCanType().evaluate()
+    DeleteCharactersToMakeFancyString().evaluate()
+
     // endregion
 }
