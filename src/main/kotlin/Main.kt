@@ -9,6 +9,7 @@ import com.rooksoto.hackerleetcoderankwars.problems.codewars.Mumbling
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.ReduceButGrow
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.ReversedSequence
 import com.rooksoto.hackerleetcoderankwars.problems.leetcode.CheckIfTheSentenceIsPangram
+import com.rooksoto.hackerleetcoderankwars.problems.leetcode.DuplicateZeros
 
 fun main() {
     // region CodeWars
@@ -31,6 +32,7 @@ fun main() {
     // region LeetCode
 
     CheckIfTheSentenceIsPangram().evaluate()
+    DuplicateZeros().evaluate()
 
     // endregion
 }
