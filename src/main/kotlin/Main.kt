@@ -11,6 +11,7 @@ import com.rooksoto.hackerleetcoderankwars.problems.codewars.ReversedSequence
 import com.rooksoto.hackerleetcoderankwars.problems.leetcode.CheckIfTheSentenceIsPangram
 import com.rooksoto.hackerleetcoderankwars.problems.leetcode.DuplicateZeros
 import com.rooksoto.hackerleetcoderankwars.problems.leetcode.ElementAppearingMoreThan25PercentInSortedArray
+import com.rooksoto.hackerleetcoderankwars.problems.leetcode.MaximumNumberOfWordsYouCanType
 
 fun main() {
     // region CodeWars
@@ -35,6 +36,6 @@ fun main() {
     CheckIfTheSentenceIsPangram().evaluate()
     DuplicateZeros().evaluate()
     ElementAppearingMoreThan25PercentInSortedArray().evaluate()
-
+    MaximumNumberOfWordsYouCanType().evaluate()
     // endregion
 }
