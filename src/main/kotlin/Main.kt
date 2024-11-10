@@ -9,6 +9,7 @@ import com.rooksoto.hackerleetcoderankwars.problems.codewars.Mumbling
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.ReduceButGrow
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.ReversedSequence
 import com.rooksoto.hackerleetcoderankwars.problems.leetcode.CheckIfAWordOccursAsAPrefixOfAnyWordInASentence
+import com.rooksoto.hackerleetcoderankwars.problems.leetcode.CheckIfBinaryStringHasAtMostOneSegmentOfOnes
 import com.rooksoto.hackerleetcoderankwars.problems.leetcode.CheckIfTheSentenceIsPangram
 import com.rooksoto.hackerleetcoderankwars.problems.leetcode.CountNegativeNumbersInASortedMatrix
 import com.rooksoto.hackerleetcoderankwars.problems.leetcode.DeleteCharactersToMakeFancyString
@@ -43,6 +44,7 @@ fun main() {
     DeleteCharactersToMakeFancyString().evaluate()
     CountNegativeNumbersInASortedMatrix().evaluate()
     CheckIfAWordOccursAsAPrefixOfAnyWordInASentence().evaluate()
+    CheckIfBinaryStringHasAtMostOneSegmentOfOnes().evaluate()
 
     // endregion
 }
