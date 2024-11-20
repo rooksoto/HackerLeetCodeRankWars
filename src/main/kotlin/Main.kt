@@ -8,7 +8,15 @@ import com.rooksoto.hackerleetcoderankwars.problems.codewars.IsHeGonnaSurvive
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.Mumbling
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.ReduceButGrow
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.ReversedSequence
-import com.rooksoto.hackerleetcoderankwars.problems.leetcode.*
+import com.rooksoto.hackerleetcoderankwars.problems.leetcode.CheckIfAWordOccursAsAPrefixOfAnyWordInASentence
+import com.rooksoto.hackerleetcoderankwars.problems.leetcode.CheckIfBinaryStringHasAtMostOneSegmentOfOnes
+import com.rooksoto.hackerleetcoderankwars.problems.leetcode.CheckIfTheSentenceIsPangram
+import com.rooksoto.hackerleetcoderankwars.problems.leetcode.CheckIfWordEqualsSummationOfTwoWords
+import com.rooksoto.hackerleetcoderankwars.problems.leetcode.CountNegativeNumbersInASortedMatrix
+import com.rooksoto.hackerleetcoderankwars.problems.leetcode.DeleteCharactersToMakeFancyString
+import com.rooksoto.hackerleetcoderankwars.problems.leetcode.DuplicateZeros
+import com.rooksoto.hackerleetcoderankwars.problems.leetcode.ElementAppearingMoreThan25PercentInSortedArray
+import com.rooksoto.hackerleetcoderankwars.problems.leetcode.MaximumNumberOfWordsYouCanType
 
 fun main() {
     // region CodeWars
