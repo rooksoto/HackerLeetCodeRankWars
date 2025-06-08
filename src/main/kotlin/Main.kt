@@ -6,6 +6,7 @@ import com.rooksoto.hackerleetcoderankwars.problems.codewars.FindTheSmallestInte
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.InvertValues
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.IsHeGonnaSurvive
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.Mumbling
+import com.rooksoto.hackerleetcoderankwars.problems.codewars.RGBToHexConversion
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.ReduceButGrow
 import com.rooksoto.hackerleetcoderankwars.problems.codewars.ReversedSequence
 import com.rooksoto.hackerleetcoderankwars.problems.leetcode.CheckIfAWordOccursAsAPrefixOfAnyWordInASentence
@@ -29,6 +30,7 @@ fun main() {
     FindTheSmallestIntegerInTheArray().evaluate()
     ComplementaryDna().evaluate()
     Mumbling().evaluate()
+    RGBToHexConversion().evaluate()
 
     // endregion
 
